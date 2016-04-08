@@ -16,7 +16,7 @@ var api = new ParseServer({
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
   appId: process.env.APP_ID || 'waPsEIBcbwW08IwOzw4kUQg4w3zNC5DIGUl6Fryc',
   masterKey: process.env.MASTER_KEY || 'WzrascAsit2vUMurx4OA2NzYvverSL3GmUKpVuaU', //Add your master key here. Keep it secret!
-  serverURL: process.env.SERVER_URL || 'http://redel.herokuapp.com/parse',  // Don't forget to change to https if needed
+  serverURL: process.env.SERVER_URL || 'http://redle.herokuapp.com/parse',  // Don't forget to change to https if needed
   liveQuery: {
     classNames: ["Posts", "Comments"] // List of classes to support for query subscriptions
   }
